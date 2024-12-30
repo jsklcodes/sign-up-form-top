@@ -143,6 +143,13 @@ body {
   min-width: 30rem;
 }
 
+.form__footer {
+  display: flex;
+  row-gap: 2rem;
+  flex-direction: column;
+  padding-inline: 3.2rem;
+}
+
 /* MARK: button */
 .button {
   border: none;
