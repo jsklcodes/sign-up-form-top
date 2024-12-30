@@ -84,6 +84,7 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: center;
+  padding-block: 6.4rem;
   flex: 2;
 }
 
