@@ -164,6 +164,17 @@ body {
   color: var(--white);
 }
 
+/* MARK: redirect-link */
+.redirect-link__anchor {
+  text-decoration: none;
+  color: var(--fern-green);
+  font-weight: 600;
+}
+
+.redirect-link__anchor:hover {
+  text-decoration: underline;
+}
+
 @media (width > 57.6rem) {
   body {
     flex-direction: row;
