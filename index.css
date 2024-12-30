@@ -36,8 +36,45 @@ body {
   min-block-size: 100vh;
 }
 
+/* MARK: brand-column */
 .brand-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url('./brand-bg-img.jpg') no-repeat center / cover;
   flex: 1;
+}
+
+/* MARK: logo */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  margin-top: 7.2rem;
+  padding-block: 2rem;
+}
+
+.logo__image {
+  width: 8rem;
+}
+
+.logo__text {
+  font-family: Norse, sans-serif;
+  font-size: 6.4rem;
+  color: var(--white);
+}
+
+/* MARK: bg-credits */
+.bg-credits {
+  align-self: center;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+.bg-credits a {
+  color: inherit;
 }
 
 .main-content {
@@ -47,5 +84,9 @@ body {
 @media (width > 57.6rem) {
   body {
     flex-direction: row;
+  }
+
+  .logo {
+    margin-top: 12rem;
   }
 }
