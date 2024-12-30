@@ -143,6 +143,15 @@ body {
   min-width: 30rem;
 }
 
+.form__control:focus {
+  outline: 1px solid var(--royal-blue);
+  box-shadow: 0.2rem 0.2rem 0.2rem 0 hsla(224, 70%, 55%, 0.6);
+}
+
+.form__control:user-invalid {
+  border-color: var(--firebrick);
+}
+
 .form__footer {
   display: flex;
   row-gap: 2rem;
