@@ -143,6 +143,27 @@ body {
   min-width: 30rem;
 }
 
+/* MARK: button */
+.button {
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1rem 3.2rem;
+  font: inherit;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.button:hover {
+  opacity: 0.94;
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: var(--fern-green);
+  color: var(--white);
+}
+
 @media (width > 57.6rem) {
   body {
     flex-direction: row;
