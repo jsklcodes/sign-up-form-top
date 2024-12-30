@@ -88,6 +88,20 @@ body {
   flex: 2;
 }
 
+/* MARK: cta */
+.cta {
+  padding-left: 3.2rem;
+  width: min(calc(100% - 4rem), 60ch);
+  font-size: clamp(1.8rem, 5vw, 2rem);
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 2rem;
+}
+
+.cta > *:first-child {
+  margin-bottom: 1.2rem;
+}
+
 @media (width > 57.6rem) {
   body {
     flex-direction: row;
